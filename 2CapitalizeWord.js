@@ -3,7 +3,7 @@ const capitaliseWord = word => {
   if (typeof word !== "string") {
     console.log("Please enter a string");
     return;
-    //capitalize word
+    //capitalize first letter of the  word
   } else {
     return word.charAt(0).toUpperCase() + word.slice(1);
   }
