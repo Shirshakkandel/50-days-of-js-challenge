@@ -1,3 +1,12 @@
+/*Write a function sumOfEvens(arr), which takes an array arr as an argument.
+ This function should return a sum of every even number in the array.
+*/
+/*
+Example test cases
+sumOfEvens([1, 1, 1, 2, 2, 2, 3, 3, 3]); // Output: 6
+sumOfEvens([]); // Output: 0
+sumOfEvens([-5, 0, 5, -4, 1, 6, -3, 2, 7]); // Output: 8
+*/
 const sumOfEvens = arr => {
   // Write your code here []
   //check is arr is array

@@ -1,3 +1,12 @@
+/*
+Implement a function called capitalizeWord(word) that capitalizes the first letter 
+of the input string word and returns the capitalized string.
+*/
+/*
+capitaliseWord('hello'); // Output: 'Hello'
+capitaliseWord('mom'); // Output: 'Mom'
+capitaliseWord('dAD'); // Output: 'DAD'
+*/
 const capitaliseWord = word => {
   //check if word is a string
   if (typeof word !== "string") {
